@@ -26,9 +26,7 @@ if (isset($_SESSION['usuario'])) {
                 <?php
                 if ($_GET['erro'] == 1) {
                     echo 'Usuário ou senha inválidos!';
-                } elseif ($_GET['erro'] == 2) {
-                    echo 'Erro ao cadastrar usuário!';
-                }
+                } 
                 ?>
             </div>
         <?php endif; ?>
